@@ -32,4 +32,5 @@ class LinkList:
         cur = self.list
         while cur != None:
             ans.append(cur.val)
+            cur = cur.next
         return ans
