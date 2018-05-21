@@ -26,3 +26,10 @@ class LinkList:
         return count
     def InitFromPt(self,x):
         self.list = x
+    
+    def ToList(self):
+        ans = list()
+        cur = self.list
+        while cur != None:
+            ans.append(cur.val)
+        return ans
